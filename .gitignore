@@ -1,0 +1,23 @@
+# Kredensial — JANGAN pernah di-commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Model & data besar
+models/*.pkl
+models/*.joblib
+data/*.xlsx
+data/*.csv
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
